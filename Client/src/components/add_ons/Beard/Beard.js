@@ -103,7 +103,7 @@ const Beard = (props) => {
       dispatch(ACTION_BEARD_TOGGLE_RESET());
     }
   };
-
+/*
   const cardDescriptionHandler = () => {
     if (beardToggle) {
       return (
@@ -143,7 +143,7 @@ const Beard = (props) => {
       );
     }
   };
-
+*/
   const PlusBounce = Keyframes.Spring({
     plusBounce: [
       {
@@ -406,7 +406,7 @@ const Beard = (props) => {
       </PlusBounce>
     );
   };
-
+/*
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -427,7 +427,7 @@ const Beard = (props) => {
       </div>
     );
   };
-
+*//*
   const smallScreenBottomWrapperRender = () => {
     return (
       <div
@@ -445,7 +445,7 @@ const Beard = (props) => {
       </div>
     );
   };
-
+*//*
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -461,7 +461,7 @@ const Beard = (props) => {
       }
     }
   };
-
+*//*
   const renderAddOnButton = () => {
     if (beardInCart) {
       return (
@@ -482,7 +482,7 @@ const Beard = (props) => {
       );
     }
   };
-
+*/
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
