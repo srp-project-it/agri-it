@@ -103,7 +103,7 @@ const GuaSha = (props) => {
       dispatch(ACTION_GUASHA_TOGGLE_RESET());
     }
   };
-
+/*
   const cardDescriptionHandler = () => {
     if (guashaToggle) {
       return (
@@ -143,7 +143,7 @@ const GuaSha = (props) => {
       );
     }
   };
-
+*/
   const PlusBounce = Keyframes.Spring({
     plusBounce: [
       {
@@ -405,7 +405,7 @@ const GuaSha = (props) => {
       </PlusBounce>
     );
   };
-
+/*
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -426,7 +426,7 @@ const GuaSha = (props) => {
       </div>
     );
   };
-
+*//*
   const smallScreenBottomWrapperRender = () => {
     return (
       <div
@@ -444,7 +444,7 @@ const GuaSha = (props) => {
       </div>
     );
   };
-
+*//*
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -460,7 +460,7 @@ const GuaSha = (props) => {
       }
     }
   };
-
+*//*
   const renderAddOnButton = () => {
     if (guashaInCart) {
       return (
@@ -481,7 +481,7 @@ const GuaSha = (props) => {
       );
     }
   };
-
+*/
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
