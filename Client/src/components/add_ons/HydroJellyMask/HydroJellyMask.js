@@ -105,7 +105,7 @@ const HydroJellyMask = (props) => {
       dispatch(ACTION_HYDRO_JELLY_TOGGLE_RESET());
     }
   };
-
+/*
   const cardDescriptionHandler = () => {
     if (hydroJellyToggle) {
       return (
@@ -145,7 +145,7 @@ const HydroJellyMask = (props) => {
       );
     }
   };
-
+*/
   const PlusBounce = Keyframes.Spring({
     plusBounce: [
       {
@@ -408,7 +408,7 @@ const HydroJellyMask = (props) => {
       </PlusBounce>
     );
   };
-
+/*
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -429,7 +429,7 @@ const HydroJellyMask = (props) => {
       </div>
     );
   };
-
+*//*
   const smallScreenBottomWrapperRender = () => {
     return (
       <div
@@ -447,7 +447,7 @@ const HydroJellyMask = (props) => {
       </div>
     );
   };
-
+*//*
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -463,7 +463,7 @@ const HydroJellyMask = (props) => {
       }
     }
   };
-
+*//*
   const renderAddOnButton = () => {
     if (hydroJellyInCart) {
       return (
@@ -484,7 +484,7 @@ const HydroJellyMask = (props) => {
       );
     }
   };
-
+*/
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
