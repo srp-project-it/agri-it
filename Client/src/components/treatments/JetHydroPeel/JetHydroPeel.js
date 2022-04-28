@@ -97,7 +97,7 @@ const JetHydroPeel = (props) => {
       dispatch(ACTION_JET_HYDRO_PEEL_TOGGLE_RESET());
     }
   };
-
+/*
   const cardDescriptionHandler = () => {
     if (jetHydroPeelToggle) {
       return (
@@ -137,7 +137,7 @@ const JetHydroPeel = (props) => {
       );
     }
   };
-
+*/
   const SuitcaseBounce = Keyframes.Spring({
     suitcaseBounce: [
       {
@@ -206,7 +206,7 @@ const JetHydroPeel = (props) => {
       </SuitcaseBounce>
     );
   };
-
+/*
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -245,7 +245,7 @@ const JetHydroPeel = (props) => {
       </div>
     );
   };
-
+*/
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -261,7 +261,7 @@ const JetHydroPeel = (props) => {
       }
     }
   };
-
+/*
   const bigScreenAddToCartButton = () => {
     return (
       <div className="jet_hydro_peel_coming_soon_container">
@@ -269,7 +269,7 @@ const JetHydroPeel = (props) => {
       </div>
     );
   };
-
+*/
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
