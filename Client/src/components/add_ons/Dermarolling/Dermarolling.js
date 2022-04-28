@@ -105,7 +105,7 @@ const Dermarolling = (props) => {
       dispatch(ACTION_DERMAROLLING_TOGGLE_RESET());
     }
   };
-
+/*
   const cardDescriptionHandler = () => {
     if (dermarollingToggle) {
       return (
@@ -146,7 +146,7 @@ const Dermarolling = (props) => {
       );
     }
   };
-
+*/
   const PlusBounce = Keyframes.Spring({
     plusBounce: [
       {
