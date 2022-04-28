@@ -134,7 +134,7 @@ const Glow = (props) => {
       dispatch(ACTION_GLOW_TOGGLE_RESET());
     }
   };
-
+/*
   const cardDescriptionHandler = () => {
     if (glowToggle) {
       return (
@@ -174,7 +174,7 @@ const Glow = (props) => {
       );
     }
   };
-
+*/
   const SuitcaseBounce = Keyframes.Spring({
     suitcaseBounce: [
       {
@@ -476,7 +476,7 @@ const Glow = (props) => {
       </SuitcaseBounce>
     );
   };
-
+/*
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -515,7 +515,7 @@ const Glow = (props) => {
       </div>
     );
   };
-
+*/
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -531,7 +531,7 @@ const Glow = (props) => {
       }
     }
   };
-
+/*
   const bigScreenAddToCartButton = () => {
     if (glowInCart) {
       return (
@@ -552,7 +552,7 @@ const Glow = (props) => {
       );
     }
   };
-
+*/
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
