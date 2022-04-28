@@ -409,7 +409,7 @@ const Dermarolling = (props) => {
       </PlusBounce>
     );
   };
-
+/*
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -430,7 +430,7 @@ const Dermarolling = (props) => {
       </div>
     );
   };
-
+*//*
   const smallScreenBottomWrapperRender = () => {
     return (
       <div
@@ -448,7 +448,7 @@ const Dermarolling = (props) => {
       </div>
     );
   };
-
+*/
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -464,7 +464,7 @@ const Dermarolling = (props) => {
       }
     }
   };
-
+/*
   const renderAddOnButton = () => {
     if (dermarollingInCart) {
       return (
@@ -485,7 +485,7 @@ const Dermarolling = (props) => {
       );
     }
   };
-
+*/
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
