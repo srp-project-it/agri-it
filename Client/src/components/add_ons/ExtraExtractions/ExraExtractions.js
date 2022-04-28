@@ -106,7 +106,7 @@ const ExtraExtractions = (props) => {
       dispatch(ACTION_EXTRA_EXTRACTIONS_TOGGLE_RESET());
     }
   };
-
+/*
   const cardDescriptionHandler = () => {
     if (extraExtractionsToggle) {
       return (
@@ -146,7 +146,7 @@ const ExtraExtractions = (props) => {
       );
     }
   };
-
+*/
   const PlusBounce = Keyframes.Spring({
     plusBounce: [
       {
@@ -409,7 +409,7 @@ const ExtraExtractions = (props) => {
       </PlusBounce>
     );
   };
-
+/*
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -430,7 +430,7 @@ const ExtraExtractions = (props) => {
       </div>
     );
   };
-
+*//*
   const smallScreenBottomWrapperRender = () => {
     return (
       <div
@@ -450,7 +450,7 @@ const ExtraExtractions = (props) => {
       </div>
     );
   };
-
+*//*
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -466,7 +466,7 @@ const ExtraExtractions = (props) => {
       }
     }
   };
-
+*//*
   const renderAddOnButton = () => {
     if (extraExtractionsInCart) {
       return (
@@ -487,7 +487,7 @@ const ExtraExtractions = (props) => {
       );
     }
   };
-
+*/
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
