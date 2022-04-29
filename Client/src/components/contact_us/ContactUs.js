@@ -131,18 +131,18 @@ const ContactUs = (props) => {
                   />
                 </div>
                 <div className="contact_us_address">
-                  <p>1506 Broadway,</p>
-                  <p>Hewlett, NY 11557</p>
+                  <p>Chennai</p>
+                  <p>Tamil Nadu</p>
                 </div>
               </div>
               <div className="contact_us_contact_container">
                 <p>
                   <FontAwesomeIcon className="contact_icon" icon={faEnvelope} />{" "}
-                  glowlabs@yahoo.com
+                  yahoo.com
                 </p>
                 <p>
                   <FontAwesomeIcon className="contact_icon" icon={faPhone} />{" "}
-                  (516) 442-8122
+                  (123) 456-7890
                 </p>
               </div>
               <div className="contact_us_times_section">
