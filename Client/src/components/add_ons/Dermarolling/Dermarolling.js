@@ -120,7 +120,7 @@ const Dermarolling = (props) => {
                 <p className="card_description_paragraph_title">Duration</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>10 minutes</p>
+                <p></p>
               </div>
               <div className="card_description_paragraph_icon_wrapper">
                 <FontAwesomeIcon
