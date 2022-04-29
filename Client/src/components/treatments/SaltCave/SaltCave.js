@@ -167,7 +167,7 @@ const SaltCave = (props) => {
       dispatch(ACTION_SALT_CAVE_TOGGLE_RESET());
     }
   };
-/*
+
   const cardDescriptionHandler = () => {
     if (saltCaveToggle) {
       return (
@@ -248,13 +248,11 @@ const SaltCave = (props) => {
     } else {
       return (
         <p className="card_description_paragraph">
-          This holistic therapy uses micro particles of salt to promote better
-          breathing, healthier skin, improved acne, and overall wellness.
         </p>
       );
     }
   };
-*/
+
   const SuitcaseBounce = Keyframes.Spring({
     suitcaseBounce: [
       {
@@ -593,7 +591,7 @@ const SaltCave = (props) => {
     );
   };
   
-/*
+
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -681,7 +679,7 @@ const SaltCave = (props) => {
       </div>
     );
   };
-*/
+
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -697,7 +695,7 @@ const SaltCave = (props) => {
       }
     }
   };
-/*
+
   const bigScreenAddToCartButton = () => {
     if (saltCaveInCart) {
       return (
@@ -718,7 +716,7 @@ const SaltCave = (props) => {
       );
     }
   };
-*/
+
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
@@ -921,7 +919,7 @@ const SaltCave = (props) => {
                   >
                     <div className="card_description_inner_wrapper">
                       <div className="salt_cave_card_new_wrapper">
-                        <h2 style={{ fontWeight: 400 }}>SALT CAVE</h2>
+                        <h2 style={{ fontWeight: 400 }}>Manure Consultation</h2>
                         <h2
                           className="salt_cave_card_new"
                           style={{
