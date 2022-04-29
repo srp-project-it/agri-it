@@ -467,7 +467,7 @@ const Dermarolling = (props) => {
       return (
         <>
           {checkMark()}
-          <p className="big_screen_in_cart">IN CART</p>
+          <p className="big_screen_in_cart"></p>
         </>
       );
     } else {
@@ -477,7 +477,7 @@ const Dermarolling = (props) => {
             className="big_screen_card_description_suitcase"
             icon={faPlus}
           />
-          <p className="big_screen_card_add_on_button">ADD TO FACIAL</p>
+          <p className="big_screen_card_add_on_button"></p>
         </>
       );
     }
