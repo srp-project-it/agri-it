@@ -13,7 +13,7 @@ const NotSurePopUp = (props) => {
   const dispatch = useDispatch();
 
   return (
-    <div className="notification_container">
+    /*<div className="notification_container">
       <svg
         width={
           props.currentScreenSize === ""
@@ -126,7 +126,7 @@ const NotSurePopUp = (props) => {
         </g>
       </svg>
       <div className="notification_text_container">
-        <h3>Not sure which facial to book?</h3>
+        <h3>W</h3>
         <div className="unsure_popup_buttons_container">
           <div
             className="unsure_popup_not_sure_button"
@@ -158,7 +158,8 @@ const NotSurePopUp = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </div>*/
+    <div></div>
   );
 };
 
