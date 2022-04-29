@@ -86,7 +86,7 @@ const AllAddOns = React.forwardRef((props, ref) => {
                   }}
                   ref={addOnsHeaderRef}
                 >
-                  YOUR ADD-ONS
+                  Products
                 </h2>
                 <span
                   style={{
@@ -106,10 +106,8 @@ const AllAddOns = React.forwardRef((props, ref) => {
                   }}
                 >
                   <p>
-                    Complement your <br />
-                    facial with any <br />
-                    of these extra <br />
-                    special treatments.
+                    All the products you need at your disposal
+
                   </p>
                 </h3>
               </>
