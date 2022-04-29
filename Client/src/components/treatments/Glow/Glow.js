@@ -134,7 +134,7 @@ const Glow = (props) => {
       dispatch(ACTION_GLOW_TOGGLE_RESET());
     }
   };
-/*
+
   const cardDescriptionHandler = () => {
     if (glowToggle) {
       return (
@@ -159,7 +159,7 @@ const Glow = (props) => {
                 <p className="card_description_paragraph_title">Price</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>$105</p>
+                <p>Rs100</p>
               </div>
             </div>
           </div>
@@ -168,13 +168,11 @@ const Glow = (props) => {
     } else {
       return (
         <p className="card_description_paragraph">
-          Accelerate brightening and clarify your skin with Glow.
-          Hyper-pigmentation and sun damage simply don’t stand a chance.
         </p>
       );
     }
   };
-*/
+
   const SuitcaseBounce = Keyframes.Spring({
     suitcaseBounce: [
       {
@@ -476,7 +474,7 @@ const Glow = (props) => {
       </SuitcaseBounce>
     );
   };
-/*
+
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -515,7 +513,7 @@ const Glow = (props) => {
       </div>
     );
   };
-*/
+
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -531,7 +529,7 @@ const Glow = (props) => {
       }
     }
   };
-/*
+
   const bigScreenAddToCartButton = () => {
     if (glowInCart) {
       return (
@@ -552,7 +550,7 @@ const Glow = (props) => {
       );
     }
   };
-*/
+
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
@@ -745,7 +743,7 @@ const Glow = (props) => {
                     }}
                   >
                     <div className="card_description_inner_wrapper">
-                      <h2 style={{ fontWeight: 400 }}>GLOW</h2>
+                      <h2 style={{ fontWeight: 400 }}>Consultation on tools</h2>
                       <p
                         className="card_description_subheader"
                         style={{ opacity: 0.6 }}
