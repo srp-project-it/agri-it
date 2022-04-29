@@ -168,7 +168,7 @@ const Microneedle = (props) => {
       dispatch(ACTION_MICRONEEDLE_TOGGLE_RESET());
     }
   };
-/*
+  
   const cardDescriptionHandler = () => {
     if (microneedleToggle) {
       return (
@@ -214,7 +214,7 @@ const Microneedle = (props) => {
                 <p className="card_description_paragraph_title">Price</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>$200</p>
+                <p>$Rs200</p>
               </div>
             </div>
           </div>
@@ -223,8 +223,6 @@ const Microneedle = (props) => {
     } else {
       return (
         <p className="card_description_paragraph">
-          Collagen production is stimulated via LED and hydrating mask to treat
-          scarring and stretch marks.
         </p>
       );
     }
@@ -564,7 +562,7 @@ const Microneedle = (props) => {
       </SuitcaseBounce>
     );
   };
-/*
+
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -573,7 +571,7 @@ const Microneedle = (props) => {
             className="big_screen_card_description_icon"
             icon={faTag}
           />
-          <p className="big_screen_price">$200</p>
+          <p className="big_screen_price">Rs200</p>
         </div>
         <div className="big_screen_duration_wrapper">
           <FontAwesomeIcon
@@ -617,7 +615,7 @@ const Microneedle = (props) => {
       </div>
     );
   };
-*/
+
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -633,7 +631,7 @@ const Microneedle = (props) => {
       }
     }
   };
-/*
+
   const bigScreenAddToCartButton = () => {
     if (microneedleInCart) {
       return (
@@ -654,7 +652,7 @@ const Microneedle = (props) => {
       );
     }
   };
-*/
+
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
@@ -866,7 +864,10 @@ const Microneedle = (props) => {
                     }}
                   >
                     <div className="card_description_inner_wrapper">
-                      <h2 style={{ fontWeight: 400 }}>MICRONEEDLE INFUSION</h2>
+                      <h2 style={{ fontWeight: 400 }}>Livestock Consultation
+                      
+                      
+                      </h2>
                       <p
                         className="card_description_subheader"
                         style={{ opacity: 0.6 }}
