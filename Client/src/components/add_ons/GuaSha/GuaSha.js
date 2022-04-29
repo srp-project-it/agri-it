@@ -103,7 +103,7 @@ const GuaSha = (props) => {
       dispatch(ACTION_GUASHA_TOGGLE_RESET());
     }
   };
-/*
+
   const cardDescriptionHandler = () => {
     if (guashaToggle) {
       return (
@@ -118,7 +118,7 @@ const GuaSha = (props) => {
                 <p className="card_description_paragraph_title">Duration</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>10 minutes</p>
+                <p></p>
               </div>
               <div className="card_description_paragraph_icon_wrapper">
                 <FontAwesomeIcon
@@ -128,7 +128,7 @@ const GuaSha = (props) => {
                 <p className="card_description_paragraph_title">Price</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>$30</p>
+                <p>Rs1000</p>
               </div>
             </div>
           </div>
@@ -137,13 +137,12 @@ const GuaSha = (props) => {
     } else {
       return (
         <p className="card_description_paragraph">
-          This ancient Chinese acupressure massage uses natural stones to reduce
-          fine lines, decrease puffiness, and help with sinus congestion.
+
         </p>
       );
     }
   };
-*/
+
   const PlusBounce = Keyframes.Spring({
     plusBounce: [
       {
@@ -405,7 +404,7 @@ const GuaSha = (props) => {
       </PlusBounce>
     );
   };
-/*
+
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -421,12 +420,12 @@ const GuaSha = (props) => {
             className="big_screen_card_description_icon"
             icon={faClock}
           />
-          <p className="big_screen_duration">10 minutes</p>
+          <p className="big_screen_duration"></p>
         </div>
       </div>
     );
   };
-*//*
+
   const smallScreenBottomWrapperRender = () => {
     return (
       <div
@@ -444,7 +443,7 @@ const GuaSha = (props) => {
       </div>
     );
   };
-*//*
+
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -460,13 +459,13 @@ const GuaSha = (props) => {
       }
     }
   };
-*//*
+
   const renderAddOnButton = () => {
     if (guashaInCart) {
       return (
         <>
           {checkMark()}
-          <p className="big_screen_in_cart">IN CART</p>
+          <p className="big_screen_in_cart"></p>
         </>
       );
     } else {
@@ -476,12 +475,12 @@ const GuaSha = (props) => {
             className="big_screen_card_description_suitcase"
             icon={faPlus}
           />
-          <p className="big_screen_card_add_on_button">ADD TO FACIAL</p>
+          <p className="big_screen_card_add_on_button"></p>
         </>
       );
     }
   };
-*/
+
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
@@ -612,7 +611,7 @@ const GuaSha = (props) => {
                     }}
                   >
                     <div className="card_description_inner_wrapper">
-                      <h2 style={{ fontWeight: 400 }}>GUA SHA MASSAGE</h2>
+                      <h2 style={{ fontWeight: 400 }}>Irrigation factilities</h2>
                       {cardDescriptionHandler()}
                       {dynamicScreenSizeBottomCardRender()}
                     </div>
