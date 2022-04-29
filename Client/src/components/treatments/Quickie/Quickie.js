@@ -136,7 +136,7 @@ const Quickie = (props) => {
       dispatch(ACTION_QUICKIE_TOGGLE_RESET());
     }
   };
-/*
+
   const cardDescriptionHandler = () => {
     if (quickieToggle) {
       return (
@@ -161,7 +161,7 @@ const Quickie = (props) => {
                 <p className="card_description_paragraph_title">Price</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>$50</p>
+                <p>Rs50</p>
               </div>
             </div>
           </div>
@@ -170,13 +170,11 @@ const Quickie = (props) => {
     } else {
       return (
         <p className="card_description_paragraph">
-          Quickie is an all-encompassing, fast, focused treatment meant to give
-          you a boost for a night out or big event.
         </p>
       );
     }
   };
-*/
+
   const SuitcaseBounce = Keyframes.Spring({
     suitcaseBounce: [
       {
@@ -474,7 +472,7 @@ const Quickie = (props) => {
       </SuitcaseBounce>
     );
   };
-/*
+
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -483,7 +481,7 @@ const Quickie = (props) => {
             className="big_screen_card_description_icon"
             icon={faTag}
           />
-          <p className="big_screen_price">$50</p>
+          <p className="big_screen_price">Rs50</p>
         </div>
         <div className="big_screen_duration_wrapper">
           <FontAwesomeIcon
@@ -513,7 +511,7 @@ const Quickie = (props) => {
       </div>
     );
   };
-*/
+
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -529,7 +527,7 @@ const Quickie = (props) => {
       }
     }
   };
-/*
+
   const bigScreenAddToCartButton = () => {
     if (quickieInCart) {
       return (
@@ -550,7 +548,7 @@ const Quickie = (props) => {
       );
     }
   };
-*/
+
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
@@ -733,7 +731,7 @@ const Quickie = (props) => {
                     }}
                   >
                     <div className="card_description_inner_wrapper">
-                      <h2 style={{ fontWeight: 400 }}>QUICKIE</h2>
+                      <h2 style={{ fontWeight: 400 }}>Fertilizer Consultation</h2>
                       <p
                         className="card_description_subheader"
                         style={{ opacity: 0.6 }}
