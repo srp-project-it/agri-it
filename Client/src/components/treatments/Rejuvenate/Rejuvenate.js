@@ -138,7 +138,7 @@ const Rejuvenate = (props) => {
       dispatch(ACTION_REJUVENATE_TOGGLE_RESET());
     }
   };
-/*
+
   const cardDescriptionHandler = () => {
     if (rejuvenateToggle) {
       return (
@@ -163,7 +163,7 @@ const Rejuvenate = (props) => {
                 <p className="card_description_paragraph_title">Price</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>$105</p>
+                <p>Rs105</p>
               </div>
             </div>
           </div>
@@ -172,13 +172,11 @@ const Rejuvenate = (props) => {
     } else {
       return (
         <p className="card_description_paragraph">
-          Fine-lines, pigmentation and elasticity loss all come with aging skin.
-          Rejuvenate can help pause and even reverse these issues.
         </p>
       );
     }
   };
-*/
+
   const SuitcaseBounce = Keyframes.Spring({
     suitcaseBounce: [
       {
@@ -485,7 +483,7 @@ const Rejuvenate = (props) => {
       </SuitcaseBounce>
     );
   };
-/*
+
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -494,7 +492,7 @@ const Rejuvenate = (props) => {
             className="big_screen_card_description_icon"
             icon={faTag}
           />
-          <p className="big_screen_price">$105</p>
+          <p className="big_screen_price">Rs105</p>
         </div>
         <div className="big_screen_duration_wrapper">
           <FontAwesomeIcon
@@ -524,7 +522,7 @@ const Rejuvenate = (props) => {
       </div>
     );
   };
-*/
+
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -540,7 +538,7 @@ const Rejuvenate = (props) => {
       }
     }
   };
-/*
+
   const bigScreenAddToCartButton = () => {
     if (rejuvenateInCart) {
       return (
@@ -561,7 +559,7 @@ const Rejuvenate = (props) => {
       );
     }
   };
-*/
+
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
@@ -753,7 +751,7 @@ const Rejuvenate = (props) => {
                     }}
                   >
                     <div className="card_description_inner_wrapper">
-                      <h2 style={{ fontWeight: 400 }}>REJUVENATE</h2>
+                      <h2 style={{ fontWeight: 400 }}>Pesticide Consultation</h2>
                       <p
                         className="card_description_subheader"
                         style={{ opacity: 0.6 }}
