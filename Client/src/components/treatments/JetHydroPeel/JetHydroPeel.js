@@ -97,7 +97,7 @@ const JetHydroPeel = (props) => {
       dispatch(ACTION_JET_HYDRO_PEEL_TOGGLE_RESET());
     }
   };
-/*
+
   const cardDescriptionHandler = () => {
     if (jetHydroPeelToggle) {
       return (
@@ -122,7 +122,7 @@ const JetHydroPeel = (props) => {
                 <p className="card_description_paragraph_title">Price</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>$250</p>
+                <p>Rs250</p>
               </div>
             </div>
           </div>
@@ -131,13 +131,11 @@ const JetHydroPeel = (props) => {
     } else {
       return (
         <p className="card_description_paragraph">
-          This non-invasive treatment uses oxygen and saline to unclog pores and
-          purify skin while infusing condition-specific serums.
         </p>
       );
     }
   };
-*/
+
   const SuitcaseBounce = Keyframes.Spring({
     suitcaseBounce: [
       {
@@ -206,7 +204,7 @@ const JetHydroPeel = (props) => {
       </SuitcaseBounce>
     );
   };
-/*
+
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -215,7 +213,7 @@ const JetHydroPeel = (props) => {
             className="big_screen_card_description_icon"
             icon={faTag}
           />
-          <p className="big_screen_price">$250</p>
+          <p className="big_screen_price">Rs250</p>
         </div>
         <div className="big_screen_duration_wrapper">
           <FontAwesomeIcon
@@ -245,7 +243,7 @@ const JetHydroPeel = (props) => {
       </div>
     );
   };
-*/
+
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -261,15 +259,15 @@ const JetHydroPeel = (props) => {
       }
     }
   };
-/*
+
   const bigScreenAddToCartButton = () => {
     return (
       <div className="jet_hydro_peel_coming_soon_container">
-        <p>COMING SOON</p>
+        <p></p>
       </div>
     );
   };
-*/
+
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
@@ -377,7 +375,7 @@ const JetHydroPeel = (props) => {
                     }}
                   >
                     <div className="card_description_inner_wrapper">
-                      <h2 style={{ fontWeight: 400 }}>JET HYDRO PEEL</h2>
+                      <h2 style={{ fontWeight: 400 }}>Heavy equipment consultation</h2>
                       <p
                         className="card_description_subheader"
                         style={{ opacity: 0.6 }}
