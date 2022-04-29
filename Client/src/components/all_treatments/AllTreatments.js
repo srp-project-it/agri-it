@@ -122,7 +122,7 @@ const AllTreatments = React.forwardRef((props, ref) => {
                   }}
                   ref={treatmentsHeaderRef}
                 >
-                  YOUR FACIAL
+                  Book consultation now!
                 </h2>
                 <span
                   style={{
@@ -142,10 +142,7 @@ const AllTreatments = React.forwardRef((props, ref) => {
                   }}
                 >
                   <p>
-                    Each facial is <br />
-                    customized <br />
-                    to fit your specific <br />
-                    skincare needs
+                    Consult with Experts in each subject !
                   </p>
                 </h3>
               </>
