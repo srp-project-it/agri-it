@@ -85,7 +85,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <div className="insta_photo_1">
                     <img
                       alt="Front_Decal"
-                      src={FrontDecal}
+                      src="https://notesread.com/wp-content/uploads/2019/12/Agricultural-Consultant.jpg"
                       style={{
                         opacity: `${propstyles.opacity}`,
                       }}
@@ -94,7 +94,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <div className="insta_photo_2">
                     <img
                       alt="Front_Couch"
-                      src={FrontCouch}
+                      src="https://images.newindianexpress.com/uploads/user/imagelibrary/2021/8/14/w1200X800/tnagriculturebudget.jpg"
                       style={{
                         opacity: `${propstyles.opacity}`,
                       }}
@@ -103,7 +103,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <div className="insta_photo_3">
                     <img
                       alt="Front_Desk"
-                      src={FrontDesk}
+                      src="https://image.shutterstock.com/image-photo/tractor-spraying-pesticides-on-soybean-260nw-653708227.jpg"
                       style={{
                         opacity: `${propstyles.opacity}`,
                       }}
@@ -112,7 +112,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <div className="insta_photo_4">
                     <img
                       alt="Salt_Cave"
-                      src={SaltCave}
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6-jajiaY7MlESIfd6eMcugQ5mwDsnz9Y9OA&usqp=CAU"
                       style={{
                         opacity: `${propstyles.opacity}`,
                       }}
@@ -129,18 +129,18 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <p>
                     Connect with us on <br />
                     Instagram <br />
-                    to see our <br />
-                    facials in action
+                     <br />
+
                     <br />
                   </p>
                   <FontAwesomeIcon
                     className="instagram_icon"
                     icon={faInstagram}
                     onClick={() =>
-                      window.open("https://instagram.com/glow.labs", "_blank")
+                      window.open("https://instagram.com/", "_blank")
                     }
                   />
-                  <p>@glow.labs</p>
+                  <p></p>
                 </div>
 
                 <div
@@ -152,7 +152,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <div className="insta_photo_5">
                     <img
                       alt="LED"
-                      src={LED}
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRulCdChD1HCj59QrPb-6JMcih9X28xgL2yQg&usqp=CAU"
                       style={{
                         opacity: `${propstyles.opacity}`,
                       }}
@@ -161,7 +161,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <div className="insta_photo_6">
                     <img
                       alt="Dim_Room"
-                      src={DimRoom}
+                      src="https://media.osram.info/im/img/osram-dam-2222182/c,x,0,y,223,w,1746,h,970/s,x,1260,y,0/ZELION_HL300_Large_Greenhouse_Application-Grow-crop_7d36fdbe-8366-43ed-b92c-3cb73e025424.jpeg"
                       style={{
                         opacity: `${propstyles.opacity}`,
                       }}
@@ -170,7 +170,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <div className="insta_photo_7">
                     <img
                       alt="Neon_Sign"
-                      src={NeonSign}
+                      src="https://media.osram.info/im/img/osram-dam-2222182/c,x,0,y,223,w,1746,h,970/s,x,1260,y,0/ZELION_HL300_Large_Greenhouse_Application-Grow-crop_7d36fdbe-8366-43ed-b92c-3cb73e025424.jpeg"
                       style={{
                         opacity: `${propstyles.opacity}`,
                       }}
@@ -179,7 +179,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                   <div className="insta_photo_8">
                     <img
                       alt="Dermaplaning"
-                      src={Dermaplaning}
+                      src="https://4.imimg.com/data4/FR/XF/MY-27291509/agriculture-sprinkler-500x500.jpg"
                       style={{
                         opacity: `${propstyles.opacity}`,
                       }}
