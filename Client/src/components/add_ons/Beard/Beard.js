@@ -413,7 +413,7 @@ const Beard = (props) => {
             className="big_screen_card_description_icon"
             icon={faTag}
           />
-          <p className="big_screen_price">$30</p>
+          <p className="big_screen_price"> Rs 2.5L </p>
         </div>
         <div className="big_screen_duration_wrapper">
           <FontAwesomeIcon
