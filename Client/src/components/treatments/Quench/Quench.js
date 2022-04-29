@@ -136,7 +136,7 @@ const Quench = (props) => {
       dispatch(ACTION_QUENCH_TOGGLE_RESET());
     }
   };
-/*
+
   const cardDescriptionHandler = () => {
     if (quenchToggle) {
       return (
@@ -161,7 +161,7 @@ const Quench = (props) => {
                 <p className="card_description_paragraph_title">Price</p>
               </div>
               <div className="card_description_paragraph_value">
-                <p>$105</p>
+                <p>Rs105</p>
               </div>
             </div>
           </div>
@@ -170,13 +170,11 @@ const Quench = (props) => {
     } else {
       return (
         <p className="card_description_paragraph">
-          Quench helps dehydrated, dry and irritated skin look dewy, glowing and
-          healthy by bringing water content back in.
         </p>
       );
     }
   };
-*/
+
   const SuitcaseBounce = Keyframes.Spring({
     suitcaseBounce: [
       {
@@ -478,7 +476,7 @@ const Quench = (props) => {
       </SuitcaseBounce>
     );
   };
-/*
+
   const bigScreenBottomWrapperRender = () => {
     return (
       <div className="big_screen_entire_bottom_wrapper">
@@ -487,7 +485,7 @@ const Quench = (props) => {
             className="big_screen_card_description_icon"
             icon={faTag}
           />
-          <p className="big_screen_price">$105</p>
+          <p className="big_screen_price">Rs105</p>
         </div>
         <div className="big_screen_duration_wrapper">
           <FontAwesomeIcon
@@ -517,7 +515,7 @@ const Quench = (props) => {
       </div>
     );
   };
-*/
+
   const dynamicScreenSizeBottomCardRender = () => {
     if (props.currentScreenSize === "") {
       if (props.initialScreenSize >= 1200) {
@@ -533,7 +531,7 @@ const Quench = (props) => {
       }
     }
   };
-/*
+
   const bigScreenAddToCartButton = () => {
     if (quenchInCart) {
       return (
@@ -554,7 +552,7 @@ const Quench = (props) => {
       );
     }
   };
-*/
+
   return (
     <InView threshold={0.2} triggerOnce={true}>
       {({ inView, ref }) => (
@@ -747,7 +745,7 @@ const Quench = (props) => {
                     }}
                   >
                     <div className="card_description_inner_wrapper">
-                      <h2 style={{ fontWeight: 400 }}>QUENCH</h2>
+                      <h2 style={{ fontWeight: 400 }}>Consultation for seeds</h2>
                       <p
                         className="card_description_subheader"
                         style={{ opacity: 0.6 }}
