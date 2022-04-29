@@ -864,8 +864,8 @@ const LandingPage = React.forwardRef((props, ref) => {
                           : `${styleopacity.opacity}`,
                       }}
                     >
-                      Customized skin care,
-                      <br /> down to a science.
+                      Tech
+                      <br /> And Agriculture
                     </h1>
                     <p
                       className="landing_page_description"
@@ -875,10 +875,8 @@ const LandingPage = React.forwardRef((props, ref) => {
                           : `${styleopacity.opacity}`,
                       }}
                     >
-                      We've reimagined the traditional idea of a facial so that
-                      we can do the thinking for you. Lay back, relax, and
-                      listen to that Peruvian pan flute music. <br />
-                      We'll figure out the rest.
+                      A Socially releavant project By Swaminathan Navinashok and Arvind P.  that brings together Agriculture and tech <br />
+
                     </p>
                     <div
                       className="call_to_action_buttons_container"
