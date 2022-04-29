@@ -691,11 +691,11 @@ const ResponsiveNavigationBar = React.forwardRef((props, ref) => {
             </li>
             <li tabIndex={0} onClick={() => navMenuScrollToTreatments()}>
               <FcPaid />
-              Facial
+               consultation
             </li>
             <li tabIndex={0} onClick={() => navMenuScrollToAddOns()}>
               <FcPlus />
-              Add-Ons
+              products
             </li>
             <li tabIndex={0} onClick={() => navMenuScrollToInstagram()}>
               <FcLike />
@@ -709,7 +709,7 @@ const ResponsiveNavigationBar = React.forwardRef((props, ref) => {
               <FontAwesomeIcon
                 icon={faInstagram}
                 onClick={() =>
-                  window.open("https://instagram.com/glow.labs", "_blank")
+                  window.open("https://instagram.com/", "_blank")
                 }
               />
 
