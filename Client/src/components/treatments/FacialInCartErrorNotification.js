@@ -76,11 +76,8 @@ const FacialInCartErrorNotification = (props) => {
               : "0.5rem",
         }}
       >
-        <h3>Cart Contains {saltCaveInCart ? "Treatment" : "Facial"}</h3>
-        <p>
-          You already have a{saltCaveInCart ? null : " facial"} treatment in
-          your cart
-        </p>
+        <h3>you have already booked an appoinment</h3>
+
       </div>
     </div>
   );
