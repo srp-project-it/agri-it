@@ -5,7 +5,7 @@ const ACTION_BACIAL_IN_CART = () => {
     type: BACIAL_IN_CART,
     payload: {
       name: "Bacial",
-      price: 120,
+      price: 1000,
       duration: 50,
     },
   };
