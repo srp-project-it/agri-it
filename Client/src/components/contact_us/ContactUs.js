@@ -69,38 +69,7 @@ const ContactUs = (props) => {
         >
           {(propstyles) => (
             <>
-              <div className="contact_us_map_container" ref={ContactRef}>
-                <GoogleMapReact
-                  ref={GoogleMapRef}
-                  options={mapOptions}
-                  onGoogleApiLoaded={({ maps }) => {
-                    mapOptions(maps);
-                  }}
-                  yesIWantToUseGoogleMapApiInternals={true}
-                  bootstrapURLKeys={{
-                    key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
-                  }}
-                  center={{
-                    lat: 40.643635,
-                    lng: -73.695618,
-                  }}
-                  defaultZoom={14}
-                  style={{
-                    position: `${propstyles.position}`,
-                    opacity: `${propstyles.opacity}`,
-                    width: "100%",
-                    height: "100%",
-                  }}
-                >
-                  <ContactCustomMarker
-                    lat={40.643635}
-                    lng={-73.695618}
-                    currentScreenSize={currentScreenSize}
-                    initialScreenSize={initialScreenSize}
-                    text="Glow Labs"
-                  />
-                </GoogleMapReact>
-              </div>
+
               <header className="contact_us_header">
                 <>
                   <h1
