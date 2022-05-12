@@ -288,47 +288,7 @@ const Microcurrent = (props) => {
   const microcurrentRejuvenateErrorToastId = "microcurrent_rejuvenate_error";
 
   const addToCart = () => {
-    if (chemicalPeelInCart || saltCaveInCart) {
-      if (!toast.isActive(chemPeelAddOnErrorToastId)) {
-        toast.dismiss();
-        toast(<AddOnsChemPeelErrorNotification />, {
-          className: "toast_error_container",
-          toastId: chemPeelAddOnErrorToastId,
-        });
-      }
-    } else {
-      if (rejuvenateInCart) {
-        if (!toast.isActive(microcurrentRejuvenateErrorToastId)) {
-          toast.dismiss();
-          toast(
-            <MicrocurrentRejuvenateErrorNotification
-              currentScreenSize={props.currentScreenSize}
-              initialScreenSize={props.initialScreenSize}
-            />,
-            {
-              className: "toast_error_container",
-              toastId: microcurrentRejuvenateErrorToastId,
-              autoClose: 6000,
-            }
-          );
-        }
-      } else {
-        if (microneedleInCart) {
-          if (!toast.isActive(microneedlingAddOnErrorToastId)) {
-            toast.dismiss();
-            toast(
-              <AddOnsMicroneedlingErrorNotification
-                currentScreenSize={props.currentScreenSize}
-                initialScreenSize={props.initialScreenSize}
-              />,
-              {
-                className: "toast_error_container",
-                toastId: microneedlingAddOnErrorToastId,
-                autoClose: 6000,
-              }
-            );
-          }
-        } else {
+
           if (microcurrentInCart) {
             toast.dismiss();
             dispatch(ACTION_MICROCURRENT_NOT_IN_CART());
@@ -361,9 +321,9 @@ const Microcurrent = (props) => {
               />
             );
           }
-        }
-      }
-    }
+
+
+
   };
 
   const addOnBounce = () => {

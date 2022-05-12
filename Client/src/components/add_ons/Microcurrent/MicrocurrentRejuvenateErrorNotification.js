@@ -71,11 +71,10 @@ const MicrocurrentRejuvenateErrorNotification = props => {
                 : "0.8rem"
           }}
         >
-          Included with Rejuvenate Facial
+
         </h3>
         <p>
-          The Microcurrent add-on is included with the Rejuvenate facial
-          treatment
+
         </p>
       </div>
     </div>
