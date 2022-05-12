@@ -5,7 +5,7 @@ const ACTION_CBD_IN_CART = () => {
     type: CBD_IN_CART,
     payload: {
       name: "CBD",
-      price: 150,
+      price: 1000,
       duration: 60,
     },
   };
