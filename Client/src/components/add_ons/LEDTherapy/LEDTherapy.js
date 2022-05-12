@@ -183,7 +183,91 @@ const LEDTherapy = (props) => {
     return (
       <Spring from={{ x: 100 }} to={{ x: 0 }} config={{ duration: 2000 }}>
         {(styles) => (
-          <img src="https://5.imimg.com/data5/IM/RP/UN/GLADMIN-4732238/crop-spraying-drone-500x500.jpg" />
+          <svg
+          width={
+            props.currentScreenSize === ""
+              ? props.initialScreenSize >= 1800
+                ? "2rem"
+                : props.initialScreenSize >= 1400
+                ? "1rem"
+                : props.initialScreenSize >= 1200
+                ? "1rem"
+                : "100%"
+              : props.currentScreenSize >= 1800
+              ? "2rem"
+              : props.currentScreenSize >= 1400
+              ? "1rem"
+              : props.currentScreenSize >= 1200
+              ? "1rem"
+              : "100%"
+          }
+          height={
+            props.currentScreenSize === ""
+              ? props.initialScreenSize >= 2200
+                ? "2rem"
+                : props.initialScreenSize >= 1800
+                ? "1.3rem"
+                : props.initialScreenSize >= 1600
+                ? "1.3rem"
+                : props.initialScreenSize >= 1200
+                ? "1.1rem"
+                : props.initialScreenSize >= 360
+                ? "2rem"
+                : "1rem"
+              : props.currentScreenSize >= 2200
+              ? "2rem"
+              : props.currentScreenSize >= 1800
+              ? "1.3rem"
+              : props.currentScreenSize >= 1600
+              ? "1.3rem"
+              : props.currentScreenSize >= 1200
+              ? "1.1rem"
+              : props.currentScreenSize >= 360
+              ? "2rem"
+              : "1rem"
+          }
+          style={{
+            marginTop:
+              props.currentScreenSize === ""
+                ? props.initialScreenSize >= 2200
+                  ? "-0.2rem"
+                  : props.initialScreenSize >= 1800
+                  ? "0"
+                  : props.initialScreenSize >= 1600
+                  ? "-0.2rem"
+                  : props.initialScreenSize >= 1200
+                  ? "-0.1rem"
+                  : props.initialScreenSize >= 360
+                  ? "-0.5rem"
+                  : "0rem"
+                : props.currentScreenSize >= 2200
+                ? "-0.2rem"
+                : props.currentScreenSize >= 1800
+                ? "0"
+                : props.currentScreenSize >= 1600
+                ? "-0.2rem"
+                : props.currentScreenSize >= 1200
+                ? "-0.1rem"
+                : props.currentScreenSize >= 360
+                ? "-0.5rem"
+                : "0rem",
+            display: ledInCart ? "block" : "none",
+          }}
+          viewBox="0 0 13.229 13.229"
+        >
+          <path
+            d="M2.851 7.56l2.45 2.482 5.36-6.958"
+            fill="none"
+            stroke="#000"
+            strokeDasharray="100"
+            strokeDashoffset={
+              cartClicked ? (ledInCart ? `${styles.x}` : 0) : 0
+            }
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3"
+          />
+        </svg>
         )}
       </Spring>
     );
