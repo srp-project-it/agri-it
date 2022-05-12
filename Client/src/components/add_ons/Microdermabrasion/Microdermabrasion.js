@@ -185,11 +185,97 @@ const Microdermabrasion = (props) => {
     ],
   });
 
+
   const checkMark = () => {
     return (
       <Spring from={{ x: 100 }} to={{ x: 0 }} config={{ duration: 2000 }}>
         {(styles) => (
-         <img src="https://media.osram.info/im/img/osram-dam-2222182/c,x,0,y,223,w,1746,h,970/s,x,1260,y,0/ZELION_HL300_Large_Greenhouse_Application-Grow-crop_7d36fdbe-8366-43ed-b92c-3cb73e025424.jpeg" /> )}
+          <svg
+            width={
+              props.currentScreenSize === ""
+                ? props.initialScreenSize >= 1800
+                  ? "2rem"
+                  : props.initialScreenSize >= 1400
+                  ? "1rem"
+                  : props.initialScreenSize >= 1200
+                  ? "1rem"
+                  : "100%"
+                : props.currentScreenSize >= 1800
+                ? "2rem"
+                : props.currentScreenSize >= 1400
+                ? "1rem"
+                : props.currentScreenSize >= 1200
+                ? "1rem"
+                : "100%"
+            }
+            height={
+              props.currentScreenSize === ""
+                ? props.initialScreenSize >= 2200
+                  ? "2rem"
+                  : props.initialScreenSize >= 1800
+                  ? "1.3rem"
+                  : props.initialScreenSize >= 1600
+                  ? "1.3rem"
+                  : props.initialScreenSize >= 1200
+                  ? "1.1rem"
+                  : props.initialScreenSize >= 360
+                  ? "2rem"
+                  : "1rem"
+                : props.currentScreenSize >= 2200
+                ? "2rem"
+                : props.currentScreenSize >= 1800
+                ? "1.3rem"
+                : props.currentScreenSize >= 1600
+                ? "1.3rem"
+                : props.currentScreenSize >= 1200
+                ? "1.1rem"
+                : props.currentScreenSize >= 360
+                ? "2rem"
+                : "1rem"
+            }
+            style={{
+              marginTop:
+                props.currentScreenSize === ""
+                  ? props.initialScreenSize >= 2200
+                    ? "-0.2rem"
+                    : props.initialScreenSize >= 1800
+                    ? "0"
+                    : props.initialScreenSize >= 1600
+                    ? "-0.2rem"
+                    : props.initialScreenSize >= 1200
+                    ? "-0.1rem"
+                    : props.initialScreenSize >= 360
+                    ? "-0.5rem"
+                    : "0rem"
+                  : props.currentScreenSize >= 2200
+                  ? "-0.2rem"
+                  : props.currentScreenSize >= 1800
+                  ? "0"
+                  : props.currentScreenSize >= 1600
+                  ? "-0.2rem"
+                  : props.currentScreenSize >= 1200
+                  ? "-0.1rem"
+                  : props.currentScreenSize >= 360
+                  ? "-0.5rem"
+                  : "0rem",
+              display: microdermabrasionInCart ? "block" : "none",
+            }}
+            viewBox="0 0 13.229 13.229"
+          >
+            <path
+              d="M2.851 7.56l2.45 2.482 5.36-6.958"
+              fill="none"
+              stroke="#000"
+              strokeDasharray="100"
+              strokeDashoffset={
+                cartClicked ? (microdermabrasionInCart ? `${styles.x}` : 0) : 0
+              }
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="3"
+            />
+          </svg>
+        )}
       </Spring>
     );
   };
@@ -198,36 +284,8 @@ const Microdermabrasion = (props) => {
   const microneedlingAddOnErrorToastId = "microneedling_add_on_error";
 
   const addToCart = () => {
-    if (chemicalPeelInCart || saltCaveInCart) {
-      if (!toast.isActive(chemPeelAddOnErrorToastId)) {
-        toast.dismiss();
-        toast(
-          <AddOnsChemPeelErrorNotification
-            currentScreenSize={props.currentScreenSize}
-            initialScreenSize={props.initialScreenSize}
-          />,
-          {
-            className: "toast_error_container",
-            toastId: chemPeelAddOnErrorToastId,
-          }
-        );
-      }
-    } else {
-      if (microneedleInCart) {
-        if (!toast.isActive(microneedlingAddOnErrorToastId)) {
-          toast.dismiss();
-          toast(
-            <AddOnsMicroneedlingErrorNotification
-              currentScreenSize={props.currentScreenSize}
-              initialScreenSize={props.initialScreenSize}
-            />,
-            {
-              className: "toast_error_container",
-              toastId: microneedlingAddOnErrorToastId,
-            }
-          );
-        }
-      } else {
+
+
         if (microdermabrasionInCart) {
           toast.dismiss();
           dispatch(ACTION_MICRODERMABRASION_NOT_IN_CART());
@@ -260,8 +318,8 @@ const Microdermabrasion = (props) => {
             />
           );
         }
-      }
-    }
+
+
   };
 
   const addOnBounce = () => {
