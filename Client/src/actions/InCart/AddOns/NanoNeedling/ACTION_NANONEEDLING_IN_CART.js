@@ -5,7 +5,7 @@ const ACTION_NANONEEDLING_IN_CART = () => {
     type: NANONEEDLING_IN_CART,
     payload: {
       name: "NanoNeedling",
-      price: 20,
+      price: 15000,
       duration: 10
     }
   };
