@@ -131,8 +131,7 @@ const ShoppingCart = (props) => {
             <h3>No items in your cart</h3>
           </div>
           <p className="cart_statement">
-            You do not have any facial treatments or add-ons in your cart right
-            now
+
           </p>
         </>
       );
@@ -431,7 +430,7 @@ const ShoppingCart = (props) => {
         className="cart_header"
         style={{ display: addOnsArr.length === 0 ? "none" : "flex" }}
       >
-        <h2>MY ADD-ON{addOnsArr.length > 1 ? "S" : null}</h2>
+        <h2>MY products{addOnsArr.length > 1 ? "S" : null}</h2>
       </div>
       {renderCartAddOns()}
       <div
@@ -439,14 +438,14 @@ const ShoppingCart = (props) => {
         style={{ display: counter === 0 ? "none" : "flex" }}
       >
         <p>Cart Subtotal</p>
-        <p>${totalPrice}</p>
+        <p>Rs {totalPrice}</p>
       </div>
       {treatmentsArr.length === 0 || saltCaveInCart ? null : (
         <div className="esthetician_preference_dropdown">
           <FormGroup className="esthetician_preference_formgroup">
             <p>
               Would you like to book an appointment with a particular
-              esthetician?
+              agricultural specialist?
             </p>
             <div className="esthetician_preference_dropdown_input_field">
               <FontAwesomeIcon
