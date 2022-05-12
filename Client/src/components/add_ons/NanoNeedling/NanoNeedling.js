@@ -283,36 +283,8 @@ const NanoNeedling = (props) => {
   const microneedlingAddOnErrorToastId = "microneedling_add_on_error";
 
   const addToCart = () => {
-    if (chemicalPeelInCart || saltCaveInCart) {
-      if (!toast.isActive(chemPeelAddOnErrorToastId)) {
-        toast.dismiss();
-        toast(
-          <AddOnsChemPeelErrorNotification
-            currentScreenSize={props.currentScreenSize}
-            initialScreenSize={props.initialScreenSize}
-          />,
-          {
-            className: "toast_error_container",
-            toastId: chemPeelAddOnErrorToastId,
-          }
-        );
-      }
-    } else {
-      if (microneedleInCart) {
-        if (!toast.isActive(microneedlingAddOnErrorToastId)) {
-          toast.dismiss();
-          toast(
-            <AddOnsMicroneedlingErrorNotification
-              currentScreenSize={props.currentScreenSize}
-              initialScreenSize={props.initialScreenSize}
-            />,
-            {
-              className: "toast_error_container",
-              toastId: microneedlingAddOnErrorToastId,
-            }
-          );
-        }
-      } else {
+
+
         if (nanoneedlingInCart) {
           toast.dismiss();
           dispatch(ACTION_NANONEEDLING_NOT_IN_CART());
@@ -345,8 +317,8 @@ const NanoNeedling = (props) => {
             />
           );
         }
-      }
-    }
+
+
   };
 
   const addOnBounce = () => {
