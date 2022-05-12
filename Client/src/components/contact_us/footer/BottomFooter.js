@@ -19,7 +19,7 @@ const BottomFooter = (props) => {
         <div className="bottom_footer_insta_wrapping">
           <div
             onClick={() =>
-              window.open("https://instagram.com/glow.labs", "_blank")
+              window.open("https://www.instagram.com/srpit6sem/", "_blank")
             }
           >
             <FontAwesomeIcon
@@ -32,7 +32,7 @@ const BottomFooter = (props) => {
         <div className="bottom_footer_facebook_wrapping">
           <div
             onClick={() =>
-              window.open("https://facebook.com/glowlabsLI/", "_blank")
+              window.open("https://www.facebook.com/profile.php?id=100080745886780", "_blank")
             }
           >
             <FontAwesomeIcon
@@ -57,24 +57,13 @@ const BottomFooter = (props) => {
             </a>
           </div>
         )}
-        <div className="bottom_footer_email_wrapping">
-          <a href="mailto:glowlabs@yahoo.com?subject=Help! What do I book?">
-            <FontAwesomeIcon className="footer_icon" icon={faEnvelopeSquare} />
-          </a>
-        </div>
+
       </div>
       <div className="bottom_footer_policy_links_container">
-        <Link to="privacy">
-          <p>PRIVACY POLICY</p>
-        </Link>
-        <p>|</p>
-        <Link to="/termsandconditions">
-          <p>TERMS AND CONDITIONS</p>
-        </Link>
       </div>
       <div className="bottom_footer_company_details">
-        <p>&copy; {new Date().getFullYear()} GLOWLABORATORIES, LLC</p>
-        <p>1506 BROADWAY HEWLETT, NY 11557</p>
+        <p>&copy; {new Date().getFullYear()} SRP IT project</p>
+        <p>2019115126 -Swaminathan Navinashok and 2019115021-Arvind P.</p>
       </div>
       <div className="bottom_footer_logo_container">
         <svg
