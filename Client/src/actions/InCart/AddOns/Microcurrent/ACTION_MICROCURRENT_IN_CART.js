@@ -5,7 +5,7 @@ const ACTION_MICROCURRENT_IN_CART = () => {
     type: MICROCURRENT_IN_CART,
     payload: {
       name: "Microcurrent",
-      price: 15,
+      price: 3000,
       duration: 10
     }
   };
