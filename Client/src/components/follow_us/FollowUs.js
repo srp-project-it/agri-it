@@ -137,7 +137,7 @@ const FollowUs = React.forwardRef((props, ref) => {
                     className="instagram_icon"
                     icon={faInstagram}
                     onClick={() =>
-                      window.open("https://instagram.com/", "_blank")
+                      window.open("https://www.instagram.com/srpit6sem/", "_blank")
                     }
                   />
                   <p></p>
