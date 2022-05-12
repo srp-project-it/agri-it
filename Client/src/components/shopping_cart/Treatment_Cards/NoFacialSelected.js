@@ -12,10 +12,10 @@ const NoFacialSelected = props => {
       <div className="shopping_cart_card_description">
         <div className="cart_card_top_container">
           <h3 style={{ fontWeight: 600 }} className="no_facial_selected">
-            No Facial Selected
+            No Appointments booked
           </h3>
           <p className="book_a_facial_statement">
-            Book a facial to go along with your add-on
+            Book a appointment with experts to know the best way to use the product you are purchasing
             {props.addOnsArr.length > 1 ? "s" : null}!
           </p>
         </div>
